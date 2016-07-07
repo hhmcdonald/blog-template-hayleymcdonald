@@ -1,0 +1,126 @@
+/*
+Theme Name: HayleyMac Designs Blog Theme
+Theme URI: http://hayleymacdesigns.com/blog/
+Description: HayleyMac Blog
+Author: Hayley McDonald
+Author URI: http://hayleymacdesigns.com
+Description: Blog theme for WIE course
+Version: 0.1
+License: Open
+Text Domain: hayley_mcdonald_blog_template
+*/
+
+@import url("stylesheet/normalize.css");
+@import url("stylesheet/skeleton.css");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-size: 14px;
+    line-height: 1.6em;
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    color: #252525;
+    height: auto;
+    font-weight: normal;
+}
+
+a {
+    color: #1f4145;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #252525;
+    cursor: pointer;
+}
+
+/* HEADER */
+
+.navBar {
+    background: #1f4145;
+    width: 100%;
+    -webkit-box-shadow: 0px 11px 9px -2px rgba(37,37,37,0.27);
+    -moz-box-shadow: 0px 11px 9px -2px rgba(37,37,37,0.27);
+    box-shadow: 0px 11px 9px -2px rgba(37,37,37,0.27);
+    top: 0px;
+    z-index: 100;
+    position: fixed;
+    width: 100%;
+}
+
+.navBar a {
+    color: #f3eeeb;
+    text-decoration: none;
+}
+
+.navBar ul {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 0;
+}
+
+.navBar ul li {
+    padding: 0.6em 2em;
+    margin-bottom: 0;
+}
+
+.banner {
+    margin-bottom: 2em;
+    -webkit-box-shadow: 0px 11px 9px -2px rgba(37,37,37,0.27);
+    -moz-box-shadow: 0px 11px 9px -2px rgba(37,37,37,0.27);
+    box-shadow: 0px 11px 9px -2px rgba(37,37,37,0.27);
+}
+
+.logo {
+    background: #f3eeeb;
+    text-align: center;
+    width: 100%;
+    margin-top: 32px;
+}
+
+.logo img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    margin: 0 auto;
+    padding: 3em 0;
+}
+
+/* MAIN */
+
+/* ASIDE */
+
+/* FOOTER */
+
+footer {
+    width: 100%;
+    background: #1f4145;
+}
+
+footer p {
+    padding: 2em 0;
+    margin: 0 auto;
+    color: #f3eeeb;
+    text-align: center;
+}
+
+footer a {
+    color: #f3eeeb;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+footer a:hover {
+    color: #f3eeeb;
+}
